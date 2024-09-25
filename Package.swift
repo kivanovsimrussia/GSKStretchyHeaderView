@@ -17,10 +17,7 @@ let package = Package(
         .target(
             name: "GSKStretchyHeaderView",
             path: "GSKStretchyHeaderView/Classes",
-            publicHeadersPath: ".",
-            cSettings: [
-                .headerSearchPath("Private") // Include the Private directory in the search paths
-            ]
+            publicHeadersPath: "."
         )
     ],
     swiftLanguageVersions: [.v5]
