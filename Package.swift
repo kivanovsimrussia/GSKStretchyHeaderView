@@ -17,7 +17,8 @@ let package = Package(
         .target(
             name: "GSKStretchyHeaderView",
             path: "GSKStretchyHeaderView/Classes",
-            exclude: ["Private"]
+            exclude: ["Private"],
+            publicHeadersPath: "."
         )
     ],
     swiftLanguageVersions: [.v5]
