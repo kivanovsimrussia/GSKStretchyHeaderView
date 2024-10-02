@@ -7,7 +7,4 @@
    <FileRef
       location = "group:GSKStretchyHeaderView/GSKStretchyHeaderView.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Example/Pods/Pods.xcodeproj">
-   </FileRef>
 </Workspace>
