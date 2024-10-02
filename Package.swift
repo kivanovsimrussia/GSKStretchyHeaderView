@@ -3,9 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "GSKStretchyHeaderView",
-    platforms: [
-        .iOS(.v7)
-    ],
     products: [
         .library(
             name: "GSKStretchyHeaderView",
@@ -15,10 +12,8 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(
-            name: "GSKStretchyHeaderView",
-            path: "GSKStretchyHeaderView/Classes",
-            publicHeadersPath: "."
+            name: "GSKStretchyHeaderView",,
+            dependencies: []
         )
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
